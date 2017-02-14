@@ -5,7 +5,7 @@ from math import log10
 
 tokenizer = RegexpTokenizer(r'\w+')
 stopWordList = stopwords.words('english')
-dataset = "C:\\Users\\lenovo\\Desktop\\Coursework\\ML\\Hw1\\20_newsgroups"  # Dataset path
+dataset = ""  # Dataset path
 classdir = [dirname for dirname in os.listdir(dataset)]
 
 #divide dataset 50:50 and store the filenames in 2 different dictionaries
